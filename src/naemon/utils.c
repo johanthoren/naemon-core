@@ -131,6 +131,7 @@ unsigned long next_problem_id = 0L;
 unsigned long next_comment_id = 0L;
 unsigned long next_notification_id = 0L;
 
+int ignore_warnings = FALSE;
 int verify_config = FALSE;
 int precache_objects = FALSE;
 int use_precached_objects = FALSE;
